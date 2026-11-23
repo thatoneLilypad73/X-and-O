@@ -1,0 +1,41 @@
+html{
+    background-color: aquamarine;
+}
+.square{
+    border:2px solid black;
+    box-sizing: border-box;
+}
+#container{
+display:grid;
+grid-template:
+  "c00 c01 c02" 200px
+  "c10 c11 c12" 200px
+  "c20 c21 c22" 200px / 200px 200px 200px;
+}
+#c00{
+    grid-area:c00;
+}
+#c01{
+    grid-area:c01;
+}
+#c02{
+    grid-area:c02;
+}
+#c10{
+    grid-area:c10;
+}
+#c11{
+    grid-area:c11;
+}
+#c12{
+    grid-area:c12;
+}
+#c20{
+    grid-area:c20;
+}
+#c21{
+    grid-area:c21;
+}
+#c22{
+    grid-area:c22;
+}
